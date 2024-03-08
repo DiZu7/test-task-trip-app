@@ -1,0 +1,13 @@
+.forecast-week {
+  &__title {
+    margin-bottom: 40px;
+  }
+
+  &__list {
+    display: flex;
+    gap: 30px;
+    max-width: 465px;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}

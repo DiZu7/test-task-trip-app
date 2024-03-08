@@ -31,8 +31,11 @@
     "webpack-dev-server": "^4.3.1"
   },
   "dependencies": {
+    "classnames": "^2.5.1",
     "core-js": "^3.18.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-modal": "^3.16.1",
+    "uuid": "^9.0.1"
   }
 }

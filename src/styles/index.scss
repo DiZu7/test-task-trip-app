@@ -17,7 +17,7 @@ ol {
 
 img {
   display: block;
-  // width: 100%;
+  object-fit: cover;
 }
 
 button {
@@ -112,12 +112,6 @@ body {
     gap: 35px;
   }
 
-  &__trip-cards {
-    display: flex;
-    gap: 35px;
-    margin-bottom: 30px;
-  }
-
   &__add-trip-btn {
     width: 150px;
     height: 150px;
@@ -135,112 +129,7 @@ body {
   }
 }
 
-.card-trip {
-  border: 1px solid #efefef;
-  &__body {
-    padding: 15px;
-    font-size: 12px;
-    &.is-active {
-      border: 1px solid #8aaaee;
-    }
-  }
-
-  &__title {
-    margin-bottom: 10px;
-  }
-  &__desc {
-    color: #bfbaba;
-    font-size: 10px;
-  }
-}
-
 // .trip-list {
 //   display: flex;
 // }
 
-.week-forecast {
-  &__title {
-    margin-bottom: 40px;
-  }
-
-  &__list {
-    display: flex;
-    gap: 1px;
-  }
-
-  &__list-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 10px;
-  }
-
-  &__day {
-    color: #bfbaba;
-  }
-}
-
-.forecast-today {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  background-image: url('../images/sky.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #fff;
-  padding: 150px 45px;
-
-  &__title {
-    align-self: center;
-    font-size: 30px;
-    margin-bottom: 20px;
-  }
-
-  &__temp {
-    position: relative;
-    align-self: center;
-    margin-bottom: 20px;
-    font-size: 45px;
-  }
-
-  &__temp-mnemo {
-    position: absolute;
-    top: 0;
-    right: -35%;
-    font-size: 16px;
-  }
-
-  &__weather-icon {
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    transform: translate(-50%, 10%);
-  }
-
-  &__city {
-    align-self: center;
-    font-size: 20px;
-  }
-
-  &__timer {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 100px;
-  }
-
-  &__timer-item {
-    text-align: center;
-  }
-  &__timer-number {
-    font-size: 20px;
-    font-weight: 700;
-    margin-bottom: 10px;
-  }
-
-  &__timer-unit {
-    text-transform: uppercase;
-    font-size: 8px;
-    color: #ffffffcc;
-  }
-}

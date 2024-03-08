@@ -1,6 +1,6 @@
 import React from 'react';
-import iconsSprite from '../images/icons.svg';
-import '../styles/modal.scss';
+import iconsSprite from '../../images/icons.svg';
+// import '../../styles/modal.scss';
 
 const Modal = () => {
   return (

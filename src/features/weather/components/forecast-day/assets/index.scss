@@ -1,0 +1,18 @@
+.forecast-week {
+  &__list-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 8px;
+  }
+
+  &__day {
+    color: #bfbaba;
+    margin-bottom: 10px;
+  }
+
+  &__weather-icon {
+    margin-bottom: 10px;
+  }
+}

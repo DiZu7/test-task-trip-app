@@ -1,0 +1,11 @@
+.trip-forecast {
+  &__trip-cards {
+    max-width: 535px;
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    gap: 35px;
+    margin-bottom: 30px;
+  }
+}
+

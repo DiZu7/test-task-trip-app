@@ -1,0 +1,18 @@
+.card-trip {
+  border: 1px solid #efefef;
+  &__body {
+    padding: 15px;
+    font-size: 12px;
+    &.is-active {
+      border: 1px solid #8aaaee;
+    }
+  }
+
+  &__title {
+    margin-bottom: 10px;
+  }
+  &__desc {
+    color: #bfbaba;
+    font-size: 10px;
+  }
+}

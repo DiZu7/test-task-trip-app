@@ -26,6 +26,7 @@
   box-shadow: 2px 2px 15px 0px rgba(92, 85, 92, 0.4);
 }
 
+
 .modal-btn {
   position: absolute;
   top: 20px;
@@ -49,52 +50,3 @@
   transform: scale(1.1);
 }
 
-.form-add-trip {
-  display: flex;
-  flex-direction: column;
-  width: 600px;
-}
-
-.form-add-trip-header {
-  padding: 20px;
-  border-bottom: 1px solid rgba(46, 47, 66, 0.1);
-  margin-bottom: 60px;
-}
-
-.form-add-trip-main {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  padding: 20px;
-  margin-bottom: 60px;
-}
-
-.form-add-trip-label::before {
-  content: '*';
-  color: red;
-  margin-right: 5px;
-}
-
-.form-add-trip-input {
-  margin-bottom: 10px;
-  padding: 8px;
-  border: 1px solid rgba(46, 47, 66, 0.2);
-  border-radius: 2px;
-}
-
-.form-add-trip-input::placeholder {
-  color: red;
-}
-
-.form-add-trip-footer {
-  display: flex;
-  justify-content: end;
-  padding: 20px;
-
-  border-top: 1px solid rgba(46, 47, 66, 0.1);
-}
-
-.form-add-trip-btns {
-  display: flex;
-  gap: 10px;
-}
